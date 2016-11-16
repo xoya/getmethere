@@ -8,23 +8,14 @@ import java.util.ArrayList;
 
 public class Trajet {
     /**
-     * liste des points d'arrets dans le sens de l'aller. Ces coordonnées sont utilisées pour traitement et calcul
+     * liste des points d'arrets dans le 1er sens. Ces coordonnées sont utilisées pour traitement et calcul
      */
-    public ArrayList<Arret> aller;
+    public ArrayList<Arret> semiTrajetA;
 
     /**
-     * liste des points d'arrets dans le sens du retour. Ces coordonnées sont utilisées pour traitement et calcul
+     * liste des points d'arrets dans le deuxieme sens. Ces coordonnées sont utilisées pour traitement et calcul
      */
-    public ArrayList<Arret> retour;
+    public ArrayList<Arret> semiTrajetB;
 
-    /**
-     * liste des coordonnées complètes formant le trajet dans le sens aller. Ces coordonnées sont utilisées pour affichage réel sur la carte
-     */
-    public ArrayList<Coordonnees> allerReel;
-
-    /**
-     * liste des coordonnées complètes formant le trajet dans le sens retour. Ces coordonnées sont utilisées pour affichage réel sur la carte
-     */
-    public ArrayList<Coordonnees> retourReel;
 
 }

@@ -11,4 +11,9 @@ public class Ligne {
      */
     public String name;
 
+    /**
+     *  le trajet desservi par la ligne
+     */
+    public Trajet trajet;
+
 }

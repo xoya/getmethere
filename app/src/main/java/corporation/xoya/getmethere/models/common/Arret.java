@@ -20,4 +20,9 @@ public class Arret {
      */
     public Arret arretPrecedent;
 
+    /**
+     *  le tronçon entre cet arret et le suivant
+     */
+    public Troncon troncon;
+
 }

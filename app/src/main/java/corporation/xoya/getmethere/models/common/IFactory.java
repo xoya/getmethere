@@ -1,6 +1,7 @@
 package corporation.xoya.getmethere.models.common;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by xhabloo on 09-Nov-16.
@@ -8,11 +9,14 @@ import java.util.ArrayList;
 
 public interface IFactory<K> {
 
+    public K make();
 
-    final static public int EMPTY = 0;
-    public K make(int configuration);
+    public K random();
 
+    public List<K> makeList(int number);
 
+    public List<K> randomList(int number);
 
+    public IConfigurator<K> with();
 
 }

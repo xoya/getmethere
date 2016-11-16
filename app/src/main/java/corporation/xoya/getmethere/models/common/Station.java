@@ -1,6 +1,7 @@
 package corporation.xoya.getmethere.models.common;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by xhabloo on 09-Nov-16.
@@ -16,6 +17,6 @@ public class Station {
     /**
      *  liste des lignes passantes par cette station.
      */
-    public ArrayList<Ligne> lignesPassantes;
+    public List<Ligne> lignesPassantes;
 
 }

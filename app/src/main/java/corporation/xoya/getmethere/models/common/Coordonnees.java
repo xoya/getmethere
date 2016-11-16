@@ -7,12 +7,12 @@ package corporation.xoya.getmethere.models.common;
 public class Coordonnees {
 
     /**
-     *  X
+     *  longitude
      */
-    public int x;
+    public double longitude;
 
     /**
-     *  Y
+     *  latitude
      */
-    public int y;
+    public double latitude;
 }
